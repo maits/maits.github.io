@@ -1,9 +1,16 @@
-/*Really good start. Think about adding some padding 
-and margin to create a little more white space. 
-Also look for opportunities to not just consolidate 
-your code, but simplify it.*/
 
-/*Need to use responsive font units (ems, rems, percents)*/
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
 
 
 body {
@@ -15,10 +22,8 @@ body {
 
 h1 {
 	color: #FFFFFF;
-	padding-left: 20px;
-	padding-top: 20px;
+	padding: 20px 0 20px;
   font-size: 25px;
-  padding-bottom: 20px;
 }
 
 body > h1 {
@@ -30,9 +35,9 @@ p:last-child {
   padding-bottom: 20px;
 }
 
-.container {
-  width: 1286px;
-}
+/*.container-fluid {
+  padding-right: 0;
+}*/
 
 h2 {
   font-family: Lobster;
@@ -54,6 +59,7 @@ h4 {
   margin-top: 15px;
   padding-bottom: 10px;
   color:#3F3F3F;
+  text-align: center;
 }
 
 a {
@@ -74,7 +80,8 @@ a {
 	color:#3F3F3F;
   font-size: 30px;
   font-weight: bold;
-  padding: 10px 0;
+  text-align: center;
+/*  padding: px 0;*/
 }
 
 
@@ -126,6 +133,7 @@ a {
 p {
 	padding-left: 0 20px;
 	color: #3F3F3F;
+  text-align: center;
 }
 
 #navbar {
@@ -133,9 +141,7 @@ p {
     font-size: 20px;
     position: fixed;
     top: 0;
-    /*  left: 0;*/
-   /* width: 100%;*/
-    width: 1256px;
+    width: 100%;
     z-index: 9998;
     padding-bottom: 7px;
 }
@@ -214,6 +220,7 @@ ul li:first-child {
 .talks {
   background-color: #FFFFE0;
   padding-bottom: 10px;
+
 }
 
 
@@ -241,8 +248,23 @@ ul li:first-child {
 	font-style: Helvetica;
 	font-color: #FFFFFF;
   width: 100%;
-  float: left;
 }
+
+.social-media li {
+  text-align: center;
+  display: inline-block;
+
+}
+
+/* tried to create a list here to see if it fixed it but it didn't.*/
+
+/*.footer > img {
+
+  display: flex;
+  justify-content: center;
+
+}*/
+
 
 img {
     padding: 10px 0;
@@ -279,7 +301,7 @@ img {
   text-align: center;
 }*/
 
-.full-width-col{
+.full-width-col {
   width: 100%;
 }
 
@@ -336,22 +358,28 @@ input[type=text] {
 
 button {
   margin-bottom: 40px;
-  border-radius: 2px;
+  margin-top: 20px;
   color: #FFFFFF;
   font-family: Lobster;
   font-size: 35px;
-  padding: 5px;
-  margin-top: 20px;
+  padding: 5px 20px; 
   border: 2px;
   border-radius: 10px;
-  background-color: #888888 ;
-  padding: 0px 20px;
+  background-color: #888888;
+  position: relative;
+  left: 45%;
+  margin-right: -55%;
+  /*margin: 0 auto;*/
+
+  
 /*  #3F3F3F;*/
 
 }
 
 button > a {
     color: #FFFFFF;
+    
+
 }
 
 button > a:hover {
