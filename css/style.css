@@ -18,6 +18,8 @@ body {
   font-weight: 300;
   font-size: 18px;
   position: relative;
+  padding-top: 70px;
+
 }
 
 h1 {
@@ -35,9 +37,6 @@ p:last-child {
   padding-bottom: 20px;
 }
 
-/*.container-fluid {
-  padding-right: 0;
-}*/
 
 h2 {
   font-family: Lobster;
@@ -136,14 +135,14 @@ p {
   text-align: center;
 }
 
-#navbar {
-    background-color: #3D0158;
-    font-size: 20px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 9998;
-    padding-bottom: 7px;
+.navbar {
+  background-color: #3D0158;
+  font-size: 20px;
+  padding-bottom: 7px;
+  margin-right: 15px;
+  margin-left: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
@@ -151,7 +150,9 @@ p {
     background-color: #888888;
 }
 
-#navbar a:focus {
+
+
+.navbar a:focus {
   color: #3F3F3F;
 }
 
@@ -159,25 +160,21 @@ ul li:first-child {
   font-weight: bold;
   font-size: 25px;
   float: left;
+  padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 15px;
- /* position: fixed;*/
-
+  padding-left: 0px;
 }
 
 .nav-pills li {
   height: auto;
-  padding-top: 10px;
+  padding-top: 15px;
   float: right;
   padding-bottom: 10px;
-}
-
-.nav-pills li { 
+  padding-right: 0px;
 	display: inline; 
 	color:#FFFFFF;
-  padding-top: 5px;
-/*  float: left;*/
 }
+
 
 .nav-pills a {
     text-decoration: none;
@@ -185,26 +182,20 @@ ul li:first-child {
     
 }
 
-#navbar a:hover {
+.nav-pills a:hover {
     color: #3F3F3F;
 }
 
-#nav-contact {
-  padding-right: 15px;
-}
-
-
 .profile-pic {
-    padding: 40px 0 20px;
-    margin-top: 70px;
+    padding: 40px 0 30px;
+    margin-top: 20px;
 }
 
 
 .portfolio {
-  	background-color: #d3d3d3;
-  	text-align: center;
-  	font-size: 18px;
-   /* padding-top: 10px;*/   
+  background-color: #d3d3d3;
+  text-align: center;
+  font-size: 18px;
 }
 
 .col > p {
@@ -212,8 +203,7 @@ ul li:first-child {
 }
 
 .clips {
-	/*width: 1024px;*/
-  	background-color: #FFFFFF;
+  background-color: #FFFFFF;
 
 }
 
@@ -239,67 +229,36 @@ ul li:first-child {
 
 }
 
-
-
-
 .footer {
-	/*width: 1024px;*/
 	background-color: #3D0158;
 	font-style: Helvetica;
 	font-color: #FFFFFF;
   width: 100%;
 }
 
-.social-media li {
-  text-align: center;
-  display: inline-block;
-
-}
-
-/* tried to create a list here to see if it fixed it but it didn't.*/
-
-/*.footer > img {
-
-  display: flex;
-  justify-content: center;
-
-}*/
-
-
 img {
     padding: 10px 0;
 }
+
 
 .col {
   width: 33.33%;
   background-color: #d3d3d3;
   float: left;
-  padding-bottom: 20px;
- /* height: 320px;*/
-}
+  padding-bottom: 40px;
+ }
 
 
 .clips-col {
   width: 33.33%;
   background-color: #FFFFFF;
   float: left;
-   padding-bottom: 20px;
-
-/*  padding-bottom: 20px;
-  /*height: 300px;*/
 }
 
 .clips-col > p {
-  padding: 0 22px;
+  padding: 0 50px;
 }
 
-/*.half-col {
-  width: 50%;
-  /*background-color: #d3d3d3;*/
-/*  float: left;
-  background-color: #FFFFE0;
-  text-align: center;
-}*/
 
 .full-width-col {
   width: 100%;
@@ -342,7 +301,6 @@ input[type=text] {
 #msg  {
   font-size: 23px;
   margin: 10px;
-/*  height: 120px;*/
   padding: 5px 5px 150px;
   width: 100%;
 }
@@ -355,7 +313,6 @@ input[type=text] {
 
 }
  
-
 button {
   margin-bottom: 40px;
   margin-top: 20px;
@@ -366,26 +323,18 @@ button {
   border: 2px;
   border-radius: 10px;
   background-color: #888888;
-  position: relative;
-  left: 45%;
-  margin-right: -55%;
-  /*margin: 0 auto;*/
-
-  
-/*  #3F3F3F;*/
-
 }
 
 button > a {
-    color: #FFFFFF;
-    
-
+  color: #FFFFFF;
 }
 
 button > a:hover {
-    color: #3F3F3F;
-    text-decoration: none;
+  color: #3F3F3F;
+  text-decoration: none;
 }
+
+
 
 /*responsive site starts here*/
 
