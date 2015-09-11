@@ -1,5 +1,4 @@
 
-
 .clearfix:after {
      visibility: hidden;
      display: block;
@@ -14,7 +13,7 @@
 
 
 body {
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light";
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light";
   font-weight: 300;
   font-size: 18px;
   position: relative;
@@ -23,8 +22,8 @@ body {
 }
 
 h1 {
-	color: #FFFFFF;
-	padding: 20px 0 20px;
+  color: #FFFFFF;
+  padding: 20px 0 20px;
   font-size: 25px;
 }
 
@@ -40,15 +39,15 @@ p:last-child {
 
 h2 {
   font-family: Lobster;
-	color:#3F3F3F;
+  color:#3F3F3F;
   font-size: 28px;
   margin-top: 20px;
 }
 
 h3 {
-	color:#FFFFFF;
-	padding-top: 5px;
-	text-align: center; 
+  color:#FFFFFF;
+  padding-top: 5px;
+  text-align: center; 
 }
 
 h4 {
@@ -76,7 +75,7 @@ a {
 }
 
 .headline {
-	color:#3F3F3F;
+  color:#3F3F3F;
   font-size: 30px;
   font-weight: bold;
   text-align: center;
@@ -93,7 +92,7 @@ a {
 }
 
 .description{
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .content {
@@ -130,8 +129,8 @@ a {
 }
 
 p {
-	padding-left: 0 20px;
-	color: #3F3F3F;
+  padding-left: 0 20px;
+  color: #3F3F3F;
   text-align: center;
 }
 
@@ -171,8 +170,8 @@ ul li:first-child {
   float: right;
   padding-bottom: 10px;
   padding-right: 0px;
-	display: inline; 
-	color:#FFFFFF;
+  display: inline; 
+  color:#FFFFFF;
 }
 
 
@@ -230,9 +229,9 @@ ul li:first-child {
 }
 
 .footer {
-	background-color: #3D0158;
-	font-style: Helvetica;
-	font-color: #FFFFFF;
+  background-color: #3D0158;
+  font-style: Helvetica;
+  font-color: #FFFFFF;
   width: 100%;
 }
 
@@ -371,8 +370,8 @@ button > a:hover {
    }
 
     .col {
-    	display: inline-block;
-    	width: 100%;
+      display: inline-block;
+      width: 100%;
     }
 
     .clips-col {
@@ -407,10 +406,3 @@ button > a:hover {
   }
 
 }
-
-
-
-
-
-
-
