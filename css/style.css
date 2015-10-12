@@ -190,6 +190,10 @@ ul li:first-child {
     margin-top: 20px;
 }
 
+.profile-pic:hover {
+    box-shadow: none;
+}
+
 
 .portfolio {
   background-color: #d3d3d3;
@@ -239,6 +243,25 @@ img {
     padding: 10px 0;
 }
 
+/*hovering effect starts here*/
+
+img:hover {
+  box-shadow: 0 4px 10px rgb (190, 186, 186);
+  transform: scale(1.05);
+}
+/*box-shadow: 0 4px 10px rgba(0,0,0, .6);*/
+
+img:active {
+  box-shadow: none;
+  
+}
+
+.logo:hover {
+    box-shadow: none;
+    transform: scale(1.2);
+}
+
+/*and ends here*/
 
 .col {
   width: 33.33%;
@@ -327,9 +350,15 @@ button > a {
   color: #FFFFFF;
 }
 
-button > a:hover {
+button:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0, .6);
+  transform: scale(1.05);
   color: #3F3F3F;
   text-decoration: none;
+}
+
+button:active {
+  box-shadow: none;
 }
 
 
